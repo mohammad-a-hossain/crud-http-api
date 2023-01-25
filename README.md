@@ -11,4 +11,11 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # project Summery 
+**http request for this app api**
+- get request
+- put request 
+- post request
+- delete
+- will use a fetch api 
+- will use routes for rest api
 

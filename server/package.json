@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "it is a api for this http request",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --no-cors true --port 9000"
+  },
+  "author": "m a hossain",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "uuid": "^9.0.0"
+  }
+}
