@@ -19,3 +19,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - will use a fetch api 
 - will use routes for rest api
 
+## in future will make it by full rest API 
+
