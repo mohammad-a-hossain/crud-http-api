@@ -31,7 +31,7 @@ function App() {
      }
      return res.json()
     })
-    .then((data)=>{  console.log(data)
+    .then((data)=>{  //console.log(data)
      setUsers(data)
    
     })
@@ -64,7 +64,7 @@ function App() {
        }) 
     
   }
-  const handelAddUser=(user)=>{ console.log(user)
+  const handelAddUser=(user)=>{// console.log(user)
     fetch(URL, {
       method: "POST",
       headers: {
@@ -123,7 +123,7 @@ function App() {
     <div className="App">
         <h3>youser management crud project </h3>
     {isLoading && <h1>hello wait it is loadding................</h1>}
-    {error && <h1>hello error happens: pls start your server or refresh</h1>}
+    {error && <h1 style={{color:'red'}}>hello error happens: pls see your server is ok or refresh</h1>}
            
         {
           isEdit ? (<Form btnText="edit" selectedData={selectedData} handelAddUser={handleUpdateData}/>):
